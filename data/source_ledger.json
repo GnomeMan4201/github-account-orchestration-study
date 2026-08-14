@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "status": "frozen",
+  "private_source_repository": "GnomeMan4201/cf-gh-follow-01",
+  "notes": "Run and artifact identifiers are retained as provenance anchors. Some source artifacts remain private by design and may not be downloadable from this public package.",
+  "chronology": {
+    "run_id": 31749826823,
+    "artifact_id": 9200478382,
+    "artifact_sha256": "d3139f56962aa9ad587978c3f190a62b2af3c6aa0576d77956fddb266e2a8e97",
+    "source_revision": "7b68211554ce902361f625a3247cf8a128b7649b"
+  },
+  "outbound_targeting": {
+    "initial_partitions": [
+      {"run_id": 31751914890, "artifact_id": 9201299700, "artifact_sha256": "6e2aa1acea88669faaf357949e5d764cadb4380c5b8bbd3359503119a5020a1f"},
+      {"run_id": 31752130011, "artifact_id": 9201420672, "artifact_sha256": "bdf622a989d5e758131ab3ebb8d352d2ce8b2a2a78643efead161b0a8442caab"},
+      {"run_id": 31751551666, "artifact_id": 9201218696, "artifact_sha256": "1e6e592e1614055a27c04841a82cfe75c012ed951bad79820b2576de132bd158"}
+    ],
+    "single_predeclared_retries": [
+      {"account": "KevinWong455", "run_id": 31753037245, "artifact_id": 9201742346, "artifact_sha256": "4900c7ecaec862490a478e441499d283c57712ee077f5bf98d68421b2311ec3e", "result": "failed_closed"},
+      {"account": "9Michael-Cooley", "run_id": 31753291343, "artifact_id": 9201828447, "artifact_sha256": "fb74a04b0bbca3b4c2fa1019639b63257b4c768553b18dbe80a88b3127cf2f6a", "result": "failed_closed"}
+    ],
+    "terminal_freeze_revision": "05c1c057e3ce77d261b444c01068b2da37c193dd"
+  },
+  "repository_provenance": {
+    "implementation_merge": "09d6f5b9149499399b6203bbc896b5e985b27cfe",
+    "authoritative_first_successes": [
+      {"account": "KevinWong455", "run_id": 31754635817, "artifact_id": 9202281793, "artifact_sha256": "b30d00ddd329c0aa92113f677ecc8131952d3e4927560e1ee136673081716796"},
+      {"account": "Seo-yeonLee", "run_id": 31754756855, "artifact_id": 9202322756, "artifact_sha256": "053fb23fc985c029c7b25e31f3449eab865bcffcd54c097a9604b05e7e9017a8"},
+      {"account": "ElvinHasanov3d", "run_id": 31754857069, "artifact_id": 9202361685, "artifact_sha256": "d6cda2cb9222c4cd374f5686cb6c42707d60ae38d87a7b4be48bbbda00852e75"},
+      {"account": "badiranssen", "run_id": 31754975681, "artifact_id": 9202401416, "artifact_sha256": "1e72fc28fcadbb921aded75afef75232ff364ef030cdcee6b29c79df7e9a1bac"},
+      {"account": "RashidSaeedAlMazrouei18", "run_id": 31755076884, "artifact_id": 9202453561, "artifact_sha256": "9f0d596358868fa1f1c5ad52288a535990eece4ab0e938d42f7132cc4434aa84"},
+      {"account": "9Michael-Cooley", "run_id": 31755216709, "artifact_id": 9202493202, "artifact_sha256": "5e811a54a7400bee69ba6b0f91aaf6ab8c80a3dccf8b68791c0f71dbbe10594c"}
+    ],
+    "result_merge": "d756a6839c79e1c7aec4d6f9b102bcfcfbb6089d"
+  },
+  "identity_morphology": {
+    "protocol_issue": 12,
+    "implementation_merge": "7db364c9805996b8f1053ceb0dd48c431924f46e",
+    "offline_result_sha256": "998e18147593807f99f952f697c2c70acdd11c75d0b0a50c0ad15e42857e474d",
+    "result_merge": "33d9a705cdcf8c5e3fcd5a17cbc901c2d90f35cb"
+  },
+  "consolidation": {
+    "assessment_merge": "fc76bead8e481d31344754770f084f814cde9484",
+    "reader_report_merge": "7b072e39da2e52ca0126d7abe3e81fbb229da2d8",
+    "devto_draft_merge": "8b94a5e7b5fd8be690f582aa8742d823fdbacb43"
+  }
+}
