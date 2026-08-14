@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "intended_public_repository": "GnomeMan4201/github-account-orchestration-study",
+  "release_status": "staged_for_publication",
+  "files": [
+    "README.md",
+    "REPORT.md",
+    "ARTICLE.md",
+    "REPRODUCING.md",
+    "NOTICE.md",
+    "data/evidence_summary.json",
+    "data/source_ledger.json",
+    "verify_bundle.py",
+    "tests/test_bundle.py",
+    ".github/workflows/verify.yml"
+  ],
+  "intentionally_excluded": [
+    "raw GitHub API pages",
+    "full outbound-follow membership lists",
+    "raw commit-author email addresses",
+    "private workflow artifacts",
+    "tokens or authentication metadata",
+    "duplicate collections excluded by frozen protocols"
+  ],
+  "claim_boundary": {
+    "shared_technical_orchestration_generation_system": "strongly_supported",
+    "common_human_operator": "not_established",
+    "shared_credentials": "not_established",
+    "shared_network_infrastructure": "not_established",
+    "specific_vendor_or_service": "not_established",
+    "deliberate_targeting": "not_established",
+    "publication_causation": "not_established"
+  }
+}
