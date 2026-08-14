@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "status": "final_collection_closed",
+  "scope": "six-account exact-template cohort",
+  "cohort": [
+    "KevinWong455",
+    "Seo-yeonLee",
+    "ElvinHasanov3d",
+    "badiranssen",
+    "RashidSaeedAlMazrouei18",
+    "9Michael-Cooley"
+  ],
+  "repository_sequencing": {
+    "dense_run_events": 303,
+    "transition_count": 302,
+    "expected_cycle_transitions": 297,
+    "deviations": 5,
+    "match_fraction": 0.9834437086092715,
+    "cycle": [
+      "KevinWong455",
+      "Seo-yeonLee",
+      "ElvinHasanov3d",
+      "badiranssen",
+      "RashidSaeedAlMazrouei18",
+      "9Michael-Cooley"
+    ],
+    "oldest_commit_replication": {
+      "repository_count": 351,
+      "transition_count": 350,
+      "expected_cycle_transitions": 318,
+      "deviations": 32,
+      "match_fraction": 0.9085714285714286,
+      "creation_to_oldest_commit_lag_seconds": {
+        "median": 1,
+        "maximum": 72,
+        "within_2_seconds": 350,
+        "analyzable_repositories": 351
+      }
+    }
+  },
+  "outbound_targeting": {
+    "authoritative_accounts": [
+      "Seo-yeonLee",
+      "ElvinHasanov3d",
+      "RashidSaeedAlMazrouei18",
+      "badiranssen"
+    ],
+    "captured_unique_counts": {
+      "Seo-yeonLee": 20509,
+      "ElvinHasanov3d": 33938,
+      "RashidSaeedAlMazrouei18": 33902,
+      "badiranssen": 33822
+    },
+    "pairwise": [
+      {"a": "Seo-yeonLee", "b": "ElvinHasanov3d", "intersection": 20317, "union": 34130, "jaccard": 0.5952827424553179, "smaller_set_containment": 0.9906382563752499},
+      {"a": "Seo-yeonLee", "b": "RashidSaeedAlMazrouei18", "intersection": 20303, "union": 34108, "jaccard": 0.5952562448692389, "smaller_set_containment": 0.9899556292359452},
+      {"a": "Seo-yeonLee", "b": "badiranssen", "intersection": 20227, "union": 34104, "jaccard": 0.5930975838611307, "smaller_set_containment": 0.9862499390511483},
+      {"a": "ElvinHasanov3d", "b": "RashidSaeedAlMazrouei18", "intersection": 33759, "union": 34081, "jaccard": 0.9905519204248702, "smaller_set_containment": 0.9957819597663855},
+      {"a": "ElvinHasanov3d", "b": "badiranssen", "intersection": 33715, "union": 34045, "jaccard": 0.9903069466882067, "smaller_set_containment": 0.9968363786884277},
+      {"a": "RashidSaeedAlMazrouei18", "b": "badiranssen", "intersection": 33683, "union": 34041, "jaccard": 0.9894832701742017, "smaller_set_containment": 0.9958902489503874}
+    ],
+    "three_large_set_intersection": 33581,
+    "three_large_set_intersection_fraction_of_smallest": 0.9928744604103837,
+    "four_way_intersection": 20067,
+    "four_way_intersection_fraction_of_seo": 0.9784484860305231,
+    "excluded_accounts": {
+      "KevinWong455": "original set failed count reconciliation; one predeclared double-pass retry failed closed",
+      "9Michael-Cooley": "original set failed count reconciliation; one predeclared double-pass retry failed closed"
+    },
+    "authoritative_six_way_intersection": null
+  },
+  "git_object_provenance": {
+    "repository_count": 351,
+    "repository_errors": 0,
+    "recursive_tree_truncations": 0,
+    "cross_owner_blob_sha_count": 10,
+    "blob_shas_spanning_all_six": 6,
+    "all_six_blob_objects": [
+      {"sha": "7c155d430d2335afd110471ef99c6d3f6037870c", "representative_path": ".gitignore", "repository_count": 48},
+      {"sha": "833251b73be2d2d6640f0c4d54ae0a00bd1cacc8", "representative_path": ".gitignore", "repository_count": 48},
+      {"sha": "86e9532eaaf9caf0ea9df8e68dff85cab2b2d2d7", "representative_path": "tsconfig.json", "repository_count": 50},
+      {"sha": "9a459cec46abd170feaaf4afa81085aff55da08c", "representative_path": ".env.example", "repository_count": 48},
+      {"sha": "ce9b28e4333b3b0345f1b9647937cc54d724dc0e", "representative_path": ".gitignore", "repository_count": 102},
+      {"sha": "d9cf46be4a2c3a44a748a13abc1060fe58bf1aac", "representative_path": "src/App.css", "repository_count": 48}
+    ],
+    "cross_owner_tree_sha_count": 0,
+    "cross_owner_root_tree_sha_count": 0,
+    "exact_cross_owner_author_name_email_bridge": false,
+    "generic_platform_committer": {
+      "name": "GitHub",
+      "login": "web-flow",
+      "disposition": "non-discriminating platform metadata"
+    },
+    "interpretation": "exact shared Git-object provenance with independent sequencing corroboration"
+  },
+  "commit_identity_morphology": {
+    "normalization": "Unicode casefold, then remove characters outside ASCII [a-z0-9] from the email local part",
+    "raw_author_email_values_released": false,
+    "exact_normalized_pair_count": 3,
+    "possible_pair_count": 15,
+    "exact_pairs": [
+      ["KevinWong455", "9Michael-Cooley"],
+      ["Seo-yeonLee", "ElvinHasanov3d"],
+      ["badiranssen", "RashidSaeedAlMazrouei18"]
+    ],
+    "exact_pairs_that_are_frozen_cycle_edges": 3,
+    "cycle_edge_count": 6,
+    "alternating_cycle_edge_levenshtein_distances": [9, 11, 9],
+    "raw_cross_owner_skeleton_groups": 0,
+    "owner_login_association": {
+      "permutations": 720,
+      "observed_rank": 369,
+      "exact_one_sided_p": 0.5333333333333333,
+      "supported": false
+    },
+    "constant_position_template": {
+      "applicable": false,
+      "reason": "unequal normalized local-part lengths"
+    },
+    "interpretation": "structured identity-generation morphology consistent with shared orchestration"
+  },
+  "final_assessment": {
+    "shared_technical_orchestration_generation_system": "strongly_supported",
+    "common_human_operator": "not_established",
+    "shared_credentials": "not_established",
+    "shared_network_infrastructure": "not_established",
+    "specific_vendor_or_service": "not_established",
+    "deliberate_targeting": "not_established",
+    "publication_causation": "not_established"
+  }
+}
