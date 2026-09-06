@@ -27,25 +27,38 @@ They do **not** establish:
 
 A later provenance dataset independently reproduced the account cycle from oldest commits: 318/350 transitions (90.86%). In the same dataset, 350/351 repositories received their oldest observed commit within two seconds of repository creation.
 
+## Longitudinal follow-on
+
+The original six-account investigation remains **closed**. New observations are not retroactively folded into its frozen protocols or measurements.
+
+A separate follow-on record documents later follower waves observed through September 5, 2026, including repeated Git-history artifacts, social-graph expansion, same-account pruning, coordinated entry into the observer's follower set, and cross-generation graph relationships.
+
+Start with [`LONGITUDINAL_UPDATE_2026-09-05.md`](LONGITUDINAL_UPDATE_2026-09-05.md).
+
+Five representative August 28 Git commits cited in that update were independently rechecked on September 6 and remain publicly resolvable with the exact published merge grammar and `nancodero` co-author trailer.
+
+Published narrative: https://dev.to/gnomeman4201/kept-getting-strange-github-followers-so-i-measured-them-3fac
+
 ## What is public here
 
-This package contains the publication article, a technical assessment, sanitized machine-readable results, a provenance ledger, and consistency checks that can be run locally.
+This package contains the publication article, a technical assessment, sanitized machine-readable results, a provenance ledger, a separated longitudinal follow-on record, and consistency checks that can be run locally.
 
-The release intentionally omits raw GitHub API page captures, full outbound-follow membership lists, raw commit-author email addresses, private workflow artifacts, and other material that adds exposure without being necessary to understand the published claim.
+The release intentionally omits raw GitHub API page captures, full outbound-follow membership lists, raw commit-author email addresses from the original closed study, private workflow artifacts, and other material that adds exposure without being necessary to understand the published claim.
 
-Because those raw inputs are not released, this package supports **audit of the reported arithmetic, protocol boundaries, evidence lineage, and claim discipline**. It does not pretend to offer a byte-for-byte public rerun of every private collection step. See [`REPRODUCING.md`](REPRODUCING.md).
+Because those raw inputs are not released, this package supports **audit of the reported arithmetic, protocol boundaries, evidence lineage, public immutable anchors, and claim discipline**. It does not pretend to offer a byte-for-byte public rerun of every private collection step. See [`REPRODUCING.md`](REPRODUCING.md).
 
 ## Start here
 
-- [`REPORT.md`](REPORT.md) — concise technical assessment
-- [`ARTICLE.md`](ARTICLE.md) — reader-facing narrative
-- [`data/evidence_summary.json`](data/evidence_summary.json) — sanitized machine-readable findings
+- [`REPORT.md`](REPORT.md) — concise technical assessment of the closed six-account study
+- [`ARTICLE.md`](ARTICLE.md) — reader-facing narrative for the closed study
+- [`LONGITUDINAL_UPDATE_2026-09-05.md`](LONGITUDINAL_UPDATE_2026-09-05.md) — later follower-wave evidence and claim ledger
+- [`data/evidence_summary.json`](data/evidence_summary.json) — sanitized machine-readable findings for the closed study
 - [`data/source_ledger.json`](data/source_ledger.json) — frozen run / artifact / commit provenance
 - [`REPRODUCING.md`](REPRODUCING.md) — public verification scope and commands
 - [`NOTICE.md`](NOTICE.md) — sanitization and attribution boundaries
 
 ## Collection status
 
-The investigation phase covered by this package is **closed**. Failed validations remain failed, excluded accounts remain excluded from measurements they did not pass, and no alternate normalization or additional account was added after results were observed.
+The investigation phase covered by `REPORT.md` is **closed**. Failed validations remain failed, excluded accounts remain excluded from measurements they did not pass, and no alternate normalization or additional account was added after results were observed.
 
-Any future extension requires a genuinely new research question and a protocol frozen before inspecting new evidence.
+The longitudinal update is explicitly a separate follow-on observation record. Future promotion of a pruning-mechanism claim requires a complete pre-event graph baseline and a post-event collection under a newly frozen protocol.
