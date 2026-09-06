@@ -6,6 +6,7 @@
     "README.md",
     "REPORT.md",
     "ARTICLE.md",
+    "LONGITUDINAL_UPDATE_2026-09-05.md",
     "REPRODUCING.md",
     "NOTICE.md",
     "data/evidence_summary.json",
@@ -17,7 +18,7 @@
   "intentionally_excluded": [
     "raw GitHub API pages",
     "full outbound-follow membership lists",
-    "raw commit-author email addresses",
+    "raw commit-author email addresses from the original closed study",
     "private workflow artifacts",
     "tokens or authentication metadata",
     "duplicate collections excluded by frozen protocols"
@@ -30,5 +31,14 @@
     "specific_vendor_or_service": "not_established",
     "deliberate_targeting": "not_established",
     "publication_causation": "not_established"
+  },
+  "follow_on_records": {
+    "LONGITUDINAL_UPDATE_2026-09-05.md": {
+      "status": "separate_extension",
+      "retroactively_modifies_closed_study": false,
+      "published_narrative": "https://dev.to/gnomeman4201/kept-getting-strange-github-followers-so-i-measured-them-3fac",
+      "public_immutable_git_anchors_rechecked": "2026-09-06",
+      "pruning_mechanism": "unresolved_hypothesis"
+    }
   }
 }
